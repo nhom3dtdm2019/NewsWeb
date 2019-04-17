@@ -73,46 +73,7 @@
                                             <li><a href="loginController">Login</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Mega</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="homeController">Home</a></li>
-                                                <li><a href="archiveController">Archive</a></li>
-                                                <li><a href="video-postContrller">Single Video Post</a></li>
-                                                <li><a href="single-postController">Single Post</a></li>
-                                                <li><a href="aboutController">About Us</a></li>
-                                                <li><a href="contactController">Contact</a></li>
-                                                <li><a href="loginController">Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="homeController">Home</a></li>
-                                                <li><a href="archiveController">Archive</a></li>
-                                                <li><a href="video-postController">Single Video Post</a></li>
-                                                <li><a href="single-postController">Single Post</a></li>
-                                                <li><a href="aboutController">About Us</a></li>
-                                                <li><a href="contactController">Contact</a></li>
-                                                <li><a href="loginController">Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="homeController">Home</a></li>
-                                                <li><a href="archiveController">Archive</a></li>
-                                                <li><a href="video-postController">Single Video Post</a></li>
-                                                <li><a href="single-postController">Single Post</a></li>
-                                                <li><a href="aboutController">About Us</a></li>
-                                                <li><a href="contactController">Contact</a></li>
-                                                <li><a href="loginController">Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="homeController">Home</a></li>
-                                                <li><a href="archiveController">Archive</a></li>
-                                                <li><a href="video-postController">Single Video Post</a></li>
-                                                <li><a href="single-postController">Single Post</a></li>
-                                                <li><a href="aboutController">About Us</a></li>
-                                                <li><a href="contactController">Contact</a></li>
-                                                <li><a href="loginController">Login</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
+                          
                                     <li><a href="aboutController">About</a></li>
                                     <li><a href="contactController">Contact</a></li>
                                 </ul>
@@ -140,66 +101,7 @@
     </header>
     <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Hero Area Start ##### -->
-    <div class="hero-area owl-carousel">
-        <!-- Single Blog Post -->
-        <div class="hero-blog-post bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12">
-                        <!-- Post Contetnt -->
-                        <div class="post-content text-center">
-                            <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
-                                <a href="#">MAY 8, 2018</a>
-                                <a href="archiveController">lifestyle</a>
-                            </div>
-                            <a href="video-postController" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
-                            <a href="video-postController" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Single Blog Post -->
-        <div class="hero-blog-post bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12">
-                        <!-- Post Contetnt -->
-                        <div class="post-content text-center">
-                            <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
-                                <a href="#">MAY 8, 2018</a>
-                                <a href="archive.html">lifestyle</a>
-                            </div>
-                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
-                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Single Blog Post -->
-        <div class="hero-blog-post bg-img bg-overlay" style="background-image: url(img/bg-img/3.jpg);">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12">
-                        <!-- Post Contetnt -->
-                        <div class="post-content text-center">
-                            <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
-                                <a href="#">MAY 8, 2018</a>
-                                <a href="archive.html">lifestyle</a>
-                            </div>
-                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
-                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Hero Area End ##### -->
+   
 
     <!-- ##### Mag Posts Area Start ##### -->
     <section class="mag-posts-area d-flex flex-wrap">
