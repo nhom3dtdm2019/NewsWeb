@@ -1,43 +1,30 @@
 package com.tuankietnguyen.tintuconline.Controllers;
 
-import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.tuankietnguyen.tintuconline.Service.accountService;
-
+import com.tuankietnguyen.tintuconline.Service.BanTinService;
 
 @Controller
 public class HomeController {
 
 
 	@Autowired
-	//private BanTinService banTinService;
-	private accountService x;
+	private BanTinService banTinService;
+	
+	@GetMapping("/all-bantin")
+	public String allBanTin() {
+		return banTinService.findAll().toString();
+	}
 	
 	@GetMapping("/")
-	public String Home(HttpServletRequest request) {
-		request.setAttribute("trend", x.findAll());
-		request.setAttribute("popular",x.findAllpopular());
-		request.setAttribute("last",x.findAlllastedVideo());
-		request.setAttribute("cate",x.findAllCate());
+	public String Home() {
 		return "index";
 	}
 	
-	/*@GetMapping("/")
-	public String Home(HttpServletRequest request) {
-		request.setAttribute("bantin", banTinService.findAll());
-		return "index";
-	}*/
-	
 	@GetMapping("/homeController")
-	public String homeController(HttpServletRequest request) {
-		request.setAttribute("trend", x.findAll());
-		request.setAttribute("popular",x.findAllpopular());
-		request.setAttribute("last",x.findAlllastedVideo());
-		request.setAttribute("cate",x.findAllCate());
+	public String homeController() {
 		return "index";
 	}
 	
