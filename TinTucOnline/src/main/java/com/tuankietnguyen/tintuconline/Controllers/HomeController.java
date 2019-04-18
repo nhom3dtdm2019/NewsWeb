@@ -1,11 +1,23 @@
-package com.tuankietnguyen.websitenews.controller;
+package com.tuankietnguyen.tintuconline.Controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import com.tuankietnguyen.tintuconline.Service.BanTinService;
 
 @Controller
 public class HomeController {
 
+
+	@Autowired
+	private BanTinService banTinService;
+	
+	@GetMapping("/all-bantin")
+	public String allBanTin() {
+		return banTinService.findAll().toString();
+	}
+	
 	@GetMapping("/")
 	public String Home() {
 		return "index";
