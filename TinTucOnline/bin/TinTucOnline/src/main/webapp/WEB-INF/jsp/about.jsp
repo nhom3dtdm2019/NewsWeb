@@ -1,4 +1,4 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -200,23 +200,6 @@
                         <!-- Single Team Member -->
                         <div class="single-team-member d-flex align-items-center">
                             <div class="team-member-thumbnail">
-                                <img src="img/bg-img/37.jpg" alt="">
-                                <div class="social-btn">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-member-content">
-                                <h6>Nguyễn Tuấn Kiệt</h6>
-                                <span>Programmer</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Single Team Member -->
-                        <div class="single-team-member d-flex align-items-center">
-                            <div class="team-member-thumbnail">
                                 <img src="img/bg-img/36.jpg" alt="">
                                 <div class="social-btn">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -225,8 +208,25 @@
                                 </div>
                             </div>
                             <div class="team-member-content">
-                                <h6>Lê Thị Thanh Ngân</h6>
-                                <span>Programmer</span>
+                                <h6>Mrs. Susan Monroe</h6>
+                                <span>Reporter</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/37.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Mr. Luke Garner</h6>
+                                <span>Editor in Chief</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
                             </div>
                         </div>
@@ -242,13 +242,29 @@
                                 </div>
                             </div>
                             <div class="team-member-content">
-                                <h6>Phạm Thị Ngọc Hường</h6>
-                                <span>Programmer</span>
+                                <h6>Ms. Elena Korikova</h6>
+                                <span>Marketer</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
                             </div>
                         </div>
                         
-                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/39.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Mr. Tom Wellington</h6>
+                                <span>Photographer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-5 col-xl-4">

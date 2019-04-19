@@ -1,4 +1,4 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,10 +14,10 @@
     <title>Mag - Video &amp; Magazine HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="/img/core-img/favicon.ico">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 
 </head>
 
@@ -57,7 +57,7 @@
                             </div>
 
                             <!-- Nav Start -->
-                           <div class="classynav">
+                             <div class="classynav">
                                 <ul>
                                     <li class="active"><a href="homeController">Home</a></li>
                                     <li><a href="archiveController">Archive</a></li>
@@ -141,12 +141,12 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcrumb Area Start ##### -->
-    <section class="breadcrumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/40.jpg);">
+    <section class="breadcrumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/41.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2>ABOUT US</h2>
+                        <h2>Travel</h2>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,8 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">About</li>
+                            <li class="breadcrumb-item"><a href="#">Feature</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Archive by Category “TRAVEL”</li>
                         </ol>
                     </nav>
                 </div>
@@ -171,84 +172,192 @@
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### About Us Area Start ##### -->
-    <section class="about-us-area">
+    <!-- ##### Archive Post Area Start ##### -->
+    <div class="archive-post-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8">
-                    <!-- About Us Content -->
-                    <div class="about-us-content bg-white mb-30 p-30 box-shadow">
-                        <!-- Section Title -->
-                        <div class="section-heading">
-                            <h5>About Us</h5>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursus quam at scelerisque. Aliquam quis varius orci, vel tincidunt est. Proin ac tincidunti, atmots interdum erat. Maecenas neque lorem, aliquet in tempus non, efficitur ac neque.</p>
-                        <p>Phasellus elefend odio quis dolor pretium condimentu. Morbi quis mauris ipsum urna eu fermentum bentons Suspendisse auctor magna ac porta ornare. Fusce finibus nibh at lacinia lobortis.</p>
-                        <ul>
-                            <li><i class="fa fa-check"></i> Vivamus starlord finibus, dictum massa eget, suscipit metus nami at tristique elit started.</li>
-                            <li><i class="fa fa-check"></i> Cras ipsum libero, suscipit vitamin tellus vitae, feugiat ultricies purus praesent gamora.</li>
-                            <li><i class="fa fa-check"></i> Proin ex sem, ultrices drax the sit amet, facilisis destroyer et odio profession risusest.</li>
-                            <li><i class="fa fa-check"></i> Morbi maximus mauris eget groot dignissim, in laoreet justo facilisis.</li>
-                        </ul>
-                        <img class="mt-15" src="img/bg-img/35.jpg" alt="">
+                    <div class="archive-posts-area bg-white p-30 mb-30 box-shadow">
 
-                        <!-- Team Member Area -->
-                        <div class="section-heading mt-30">
-                            <h5>Our Team</h5>
-                        </div>
-                        
-                        <!-- Single Team Member -->
-                        <div class="single-team-member d-flex align-items-center">
-                            <div class="team-member-thumbnail">
-                                <img src="img/bg-img/37.jpg" alt="">
-                                <div class="social-btn">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <!-- Single Catagory Post -->
+                        <div class="single-catagory-post d-flex flex-wrap">
+                            <!-- Thumbnail -->
+                            <div class="post-thumbnail bg-img" style="background-image: url(img/bg-img/42.jpg);">
+                                <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            </div>
+
+                            <!-- Post Contetnt -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a href="#">MAY 8, 2018</a>
+                                    <a href="archive.html">lifestyle</a>
                                 </div>
-                            </div>
-                            <div class="team-member-content">
-                                <h6>Nguyễn Tuấn Kiệt</h6>
-                                <span>Programmer</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Single Team Member -->
-                        <div class="single-team-member d-flex align-items-center">
-                            <div class="team-member-thumbnail">
-                                <img src="img/bg-img/36.jpg" alt="">
-                                <div class="social-btn">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="video-post.html" class="post-title">Global Travel And Vacations Luxury Travel On A Tight Budget</a>
+                                <!-- Post Meta -->
+                                <div class="post-meta-2">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
                                 </div>
-                            </div>
-                            <div class="team-member-content">
-                                <h6>Lê Thị Thanh Ngân</h6>
-                                <span>Programmer</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum. Sed ut perspiciatis lorem150</p>
                             </div>
                         </div>
-                        
-                        <!-- Single Team Member -->
-                        <div class="single-team-member d-flex align-items-center">
-                            <div class="team-member-thumbnail">
-                                <img src="img/bg-img/38.jpg" alt="">
-                                <div class="social-btn">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                        <!-- Single Catagory Post -->
+                        <div class="single-catagory-post d-flex flex-wrap">
+                            <!-- Thumbnail -->
+                            <div class="post-thumbnail bg-img" style="background-image: url(img/bg-img/43.jpg);">
+                                <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            </div>
+
+                            <!-- Post Contetnt -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a href="#">MAY 8, 2018</a>
+                                    <a href="archive.html">lifestyle</a>
                                 </div>
-                            </div>
-                            <div class="team-member-content">
-                                <h6>Phạm Thị Ngọc Hường</h6>
-                                <span>Programmer</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                                <a href="video-post.html" class="post-title">The Luxury Of Traveling With Yacht Charter Companies</a>
+                                <!-- Post Meta -->
+                                <div class="post-meta-2">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum. Sed ut perspiciatis lorem150</p>
                             </div>
                         </div>
-                        
-                        
+
+                        <!-- Single Catagory Post -->
+                        <div class="single-catagory-post d-flex flex-wrap">
+                            <!-- Thumbnail -->
+                            <div class="post-thumbnail bg-img" style="background-image: url(img/bg-img/44.jpg);">
+                                <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            </div>
+
+                            <!-- Post Contetnt -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a href="#">MAY 8, 2018</a>
+                                    <a href="archive.html">lifestyle</a>
+                                </div>
+                                <a href="video-post.html" class="post-title">Will The Democrats Be Able To Reverse The Online Gambling Ban</a>
+                                <!-- Post Meta -->
+                                <div class="post-meta-2">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum. Sed ut perspiciatis lorem150</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Catagory Post -->
+                        <div class="single-catagory-post d-flex flex-wrap">
+                            <!-- Thumbnail -->
+                            <div class="post-thumbnail bg-img" style="background-image: url(img/bg-img/45.jpg);">
+                                <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            </div>
+
+                            <!-- Post Contetnt -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a href="#">MAY 8, 2018</a>
+                                    <a href="archive.html">lifestyle</a>
+                                </div>
+                                <a href="video-post.html" class="post-title">Family Safari Vacation To The Home Of The Gods</a>
+                                <!-- Post Meta -->
+                                <div class="post-meta-2">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum. Sed ut perspiciatis lorem150</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Catagory Post -->
+                        <div class="single-catagory-post d-flex flex-wrap">
+                            <!-- Thumbnail -->
+                            <div class="post-thumbnail bg-img" style="background-image: url(img/bg-img/46.jpg);">
+                                <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            </div>
+
+                            <!-- Post Contetnt -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a href="#">MAY 8, 2018</a>
+                                    <a href="archive.html">lifestyle</a>
+                                </div>
+                                <a href="video-post.html" class="post-title">Addiction When Gambling Becomes A Problem</a>
+                                <!-- Post Meta -->
+                                <div class="post-meta-2">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum. Sed ut perspiciatis lorem150</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Catagory Post -->
+                        <div class="single-catagory-post d-flex flex-wrap">
+                            <!-- Thumbnail -->
+                            <div class="post-thumbnail bg-img" style="background-image: url(img/bg-img/47.jpg);">
+                                <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            </div>
+
+                            <!-- Post Contetnt -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a href="#">MAY 8, 2018</a>
+                                    <a href="archive.html">lifestyle</a>
+                                </div>
+                                <a href="video-post.html" class="post-title">Take A Romantic Break In A Boutique Hotel</a>
+                                <!-- Post Meta -->
+                                <div class="post-meta-2">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum. Sed ut perspiciatis lorem150</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Catagory Post -->
+                        <div class="single-catagory-post d-flex flex-wrap">
+                            <!-- Thumbnail -->
+                            <div class="post-thumbnail bg-img" style="background-image: url(img/bg-img/48.jpg);">
+                                <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            </div>
+
+                            <!-- Post Contetnt -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a href="#">MAY 8, 2018</a>
+                                    <a href="archive.html">lifestyle</a>
+                                </div>
+                                <a href="video-post.html" class="post-title">Global Travel And Vacations Luxury Travel On A Tight Budget</a>
+                                <!-- Post Meta -->
+                                <div class="post-meta-2">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum. Sed ut perspiciatis lorem150</p>
+                            </div>
+                        </div>
+
+                        <!-- Pagination -->
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#"><i class="ti-angle-right"></i></a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-5 col-xl-4">
@@ -296,6 +405,70 @@
                         <div class="single-sidebar-widget p-30">
                             <!-- Section Title -->
                             <div class="section-heading">
+                                <h5>Hot Channels</h5>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="img/bg-img/14.jpg" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="single-post.html" class="channel-title">TV Show</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="img/bg-img/15.jpg" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="single-post.html" class="channel-title">Game Channel</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="img/bg-img/16.jpg" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="single-post.html" class="channel-title">Sport Channel</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="img/bg-img/17.jpg" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="single-post.html" class="channel-title">Travel Channel</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="img/bg-img/18.jpg" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="single-post.html" class="channel-title">LifeStyle Channel</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Sidebar Widget -->
+                        <div class="single-sidebar-widget p-30">
+                            <!-- Section Title -->
+                            <div class="section-heading">
                                 <h5>Newsletter</h5>
                             </div>
 
@@ -312,8 +485,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ##### About Us Area End ##### -->
+    </div>
+    <!-- ##### Archive Post Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">

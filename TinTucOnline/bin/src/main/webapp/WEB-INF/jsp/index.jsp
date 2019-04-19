@@ -1,4 +1,4 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -72,7 +72,7 @@
                                             <li><a href="aboutController">About Us</a></li>
                                             <li><a href="contactController">Contact</a></li>
                                             <li><a href="submit-videoController">Submit Video</a></li>
-                                            <li><a href="TrangChuAdmin.jsp">Login</a></li>
+                                            <li><a href="loginController">Login</a></li>
                                         </ul>
                                     </li>
                           
@@ -92,7 +92,7 @@
                                 </form>
                             </div>
                             <!-- Login -->
-                            <a href="adminContronller" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <a href="loginController" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
                             <!-- Submit Video -->
                             <a href="submit-videoController" class="submit-video"><span><i class="fa fa-cloud-upload"></i></span> <span class="video-text">Submit Video</span></a>
                         </div>
