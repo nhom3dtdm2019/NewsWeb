@@ -64,5 +64,10 @@ public class accountService {
 		}
 		return categories;
 	}
-	
+	public void saveTrend(Trending trend) {
+		trendRepository.save(trend);
+	}
+	public void deleteTrend(int id) {
+		trendRepository.deleteById(id);
+	}
 }

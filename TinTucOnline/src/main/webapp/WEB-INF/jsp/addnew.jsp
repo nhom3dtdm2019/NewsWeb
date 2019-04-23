@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,8 +58,7 @@
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
 
-                            <!-- Nav Start -->
-                         
+                            
                         </div>
 
                         <div class="top-meta-data d-flex align-items-center">
@@ -81,31 +82,55 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcrumb Area Start ##### -->
-   
-    <!-- ##### Breadcrumb Area End ##### -->
-
-    <!-- ##### Login Area Start ##### -->
-    <div class="mag-login-area py-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
-                    <div class="login-content bg-white p-30 box-shadow">
-                        <!-- Section Title -->
-                        <div class="section-heading">
-                            <h5>Great to have you back!</h5>
-                        </div>
-
-                        <form action="" method="">
-                            
-                           
-                        </form>
+    <section class="breadcrumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/40.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content">
+                        <h2>QUẢN LÝ</h2>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ##### Login Area End ##### -->
+    </section>
+    <!-- ##### Breadcrumb Area End ##### -->
 
+      <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>Bản tin</strong>
+                                    </div>
+                                     <div class="card-body card-block">
+                                          <form method="post" action="save-trending" enctype="multipart/form-data">
+   
+    <div class="form-group">
+      <label >title:</label>
+      <input type="text" class="form-control" name="trendname" >		
+    </div>
+    <div class="form-group">
+      <label >image:</label>
+      <input type="text" class="form-control" name="hinhanh">	
+    </div>
+    <div class="form-group">
+      <label >Summary</label>
+      <input type="text" class="form-control" name="tomtat">	
+    </div>
+    <div class="form-group">
+		<button type="submit" class="btn btn-primary" value="save">Save</button>
+	</div>
+    
+  </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <div class="container">

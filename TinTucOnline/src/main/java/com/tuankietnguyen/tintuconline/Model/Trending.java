@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Trending {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int idtrend;
 	private String trendname;
 	private String hinhanh;
@@ -17,6 +17,13 @@ public class Trending {
 	
 	public Trending() {
 		
+	}
+
+	public Trending(String trendname, String hinhanh, String tomtat) {
+		super();
+		this.trendname = trendname;
+		this.hinhanh = hinhanh;
+		this.tomtat = tomtat;
 	}
 
 	public int getIdtrend() {

@@ -1,7 +1,5 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,7 +40,7 @@
                 <nav class="classy-navbar justify-content-between" id="magNav">
 
                     <!-- Nav brand -->
-                    <a href="homeController" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                    <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -58,7 +56,68 @@
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
 
-                            
+                            <!-- Nav Start -->
+                          <div class="classynav">
+                                <ul>
+                                    <li class="active"><a href="homeController">Home</a></li>
+                                    <li><a href="archiveController">Archive</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="homeController">Home</a></li>
+                                            <li><a href="archiveController">Archive</a></li>
+                                            <li><a href="video-postController">Single Video Post</a></li>
+                                            <li><a href="single-postController">Single Post</a></li>
+                                            <li><a href="aboutController">About Us</a></li>
+                                            <li><a href="contactController">Contact</a></li>
+                                            <li><a href="submit-videoController">Submit Video</a></li>
+                                            <li><a href="loginController">Login</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Mega</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="homeController">Home</a></li>
+                                                <li><a href="archiveController">Archive</a></li>
+                                                <li><a href="video-postContrller">Single Video Post</a></li>
+                                                <li><a href="single-postController">Single Post</a></li>
+                                                <li><a href="aboutController">About Us</a></li>
+                                                <li><a href="contactController">Contact</a></li>
+                                                <li><a href="loginController">Login</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="homeController">Home</a></li>
+                                                <li><a href="archiveController">Archive</a></li>
+                                                <li><a href="video-postController">Single Video Post</a></li>
+                                                <li><a href="single-postController">Single Post</a></li>
+                                                <li><a href="aboutController">About Us</a></li>
+                                                <li><a href="contactController">Contact</a></li>
+                                                <li><a href="loginController">Login</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="homeController">Home</a></li>
+                                                <li><a href="archiveController">Archive</a></li>
+                                                <li><a href="video-postController">Single Video Post</a></li>
+                                                <li><a href="single-postController">Single Post</a></li>
+                                                <li><a href="aboutController">About Us</a></li>
+                                                <li><a href="contactController">Contact</a></li>
+                                                <li><a href="loginController">Login</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="homeController">Home</a></li>
+                                                <li><a href="archiveController">Archive</a></li>
+                                                <li><a href="video-postController">Single Video Post</a></li>
+                                                <li><a href="single-postController">Single Post</a></li>
+                                                <li><a href="aboutController">About Us</a></li>
+                                                <li><a href="contactController">Contact</a></li>
+                                                <li><a href="loginController">Login</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="aboutController">About</a></li>
+                                    <li><a href="contactController">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
                         </div>
 
                         <div class="top-meta-data d-flex align-items-center">
@@ -87,7 +146,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2>QUẢN LÝ</h2>
+                        <h2>Login</h2>
                     </div>
                 </div>
             </div>
@@ -95,103 +154,39 @@
     </section>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <section class="content">
-
-                <!-- Bảng chính -->
-                <div class="row">
-                    <div class="col-xs-12" style="margin-left:150px">
-                        <div class="box">
-                            <div class="box-header">
-                                <h3 class="box-title">List trending</h3>
-                            </div>
-                            <div class="box-body">
-                                <div class="row">
-                                    <div class="col-xs-10">
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                                            <input type="text" class="form-control" onkeyup="myFunctionSP()" id="myInput" placeholder="Tìm">
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-2">
-                                        <div class="btn-them">
-                                            <a href="addTrendController">
-                                                <button type="button" class="btn btn-primary"><i class="fa fa-plus"></i>
-                                                    Add</button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <table class="table table-bordered table-hover" id="myTable">
-                                    <thead>
-                                        <tr>
-                                          <th>ID</th>
-                                          <th>Name</th>
-                                          <th>Image</th>
-                                          <th>Summary</th>
-                                         
-                                        </tr>
-                                      </thead>
-                                      <tbody>
-									  <c:forEach var="trend" items="${trend}">
-                                        <tr>
-                                          <td>${trend.idtrend}</td>
-                                          <td>${trend.trendname}</td>
-                                          <td><img src="${trend.hinhanh}" style="height:50%"></td>
-                                          <td>${trend.tomtat}</td>
-                                          <td>
-                                              <span>    
-                                                  <a href="XemSanPham.html">
-                                                    <button type="button" class="btn btn-info"><i class="fa fa-eye"></i> Edit</button>
-                                                  </a>
-                                              </span>
-                                            </td>
-                                            <td>
-                                              <div>
-                                                
-                                                <!-- Button to Open the Modal -->
-                                                <div data-toggle="modal" data-target="#myModal">
-                                                  <a href="delete-trending?id=${trend.idtrend}"><button type="button" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</button></a>
-                                                </div>
-                                            
-                                              <!-- The Modal -->
-                                              <div class="modal fade" id="myModal">
-                                                <div class="modal-dialog">
-                                                  <div class="modal-content">
-                                                  
-                                                    <!-- Modal Header -->
-                                                    <div class="modal-header">
-                                                      <h4 class="modal-title">Cảnh báo</h4>
-                                                      <button type="button" class="close" data-dismiss="modal">×</button>
-                                                    </div>
-                                                    
-                                                    <!-- Modal body -->
-                                                    <div class="modal-body">
-                                                      Bạn có chắc chắn muốn xóa?
-                                                    </div>
-                                                    
-                                                    <!-- Modal footer -->
-                                                    <div class="modal-footer">
-                                                      <button type="button" class="btn btn-dropbox" data-dismiss="modal">Ok</button>
-                                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                                    </div>
-                                                    
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </td>
-                                        </tr>
-                                       </c:forEach>
-              
-                                      </tbody>
-                                </table>
-                            </div>
+    <!-- ##### Login Area Start ##### -->
+    <div class="mag-login-area py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <div class="login-content bg-white p-30 box-shadow">
+                        <!-- Section Title -->
+                        <div class="section-heading">
+                            <h5>Great to have you back!</h5>
                         </div>
+
+                
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="User Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox mr-sm-2">
+                                    <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                    <label class="custom-control-label" for="customControlAutosizing">Remember me</label>
+                                </div>
+                            </div>
+                            <a href="loginController"><button type="submit" class="btn mag-btn mt-30">Login</button></a>
+                      
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Login Area End ##### -->
 
-
-            </section>
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <div class="container">

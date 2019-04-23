@@ -92,7 +92,7 @@
                                 </form>
                             </div>
                             <!-- Login -->
-                            <a href="adminContronller" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <a href="login1" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
                             <!-- Submit Video -->
                             <a href="submit-videoController" class="submit-video"><span><i class="fa fa-cloud-upload"></i></span> <span class="video-text">Submit Video</span></a>
                         </div>
